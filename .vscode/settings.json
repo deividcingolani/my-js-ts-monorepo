@@ -1,5 +1,7 @@
 {
   "files.associations": {
     "api-extractor*.json": "jsonc"
-  }
+  },
+  "workbench.editor.highlightModifiedTabs": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false
 }

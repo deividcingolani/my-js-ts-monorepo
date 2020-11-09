@@ -8,20 +8,23 @@
   },
   "scripts": {
     "clean": "rimraf dist *.tsbuildinfo",
-    "test": "jest",
-    "build": "tsc -b .",
-    "lint": "eslint src --ext js,ts"
+    "test": "scripty",
+    "build": "scripty",
+    "lint": "scripty"
+  },
+  "scripty":{
+    "path":"../../scripts/packages/"
   },
   "dependencies": {
-    "@types/date-fns": "^2.6.0",
-    "@types/jest": "^26.0.15",
-    "@types/react": "^16.9.55",
     "date-fns": "^2.16.1",
-    "jest": "^26.6.3",
     "react": "^17.0.1"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.12.1",
-    "@babel/preset-typescript": "^7.12.1"
+    "@babel/preset-typescript": "^7.12.1",
+    "jest": "^26.6.3",
+    "@types/date-fns": "^2.6.0",
+    "@types/jest": "^26.0.15",
+    "@types/react": "^16.9.55"
   }
 }
